@@ -1,0 +1,897 @@
+html {
+    font-size: 32px;
+}
+
+body {
+    background: url(../images/body_bg.png) #f7f7f5 no-repeat;
+    background-size: 100%;
+    padding-bottom: 0.9375rem;
+}
+
+
+/* 头部 start */
+
+.head {
+    padding-top: 1.8125rem;
+    font-size: 1.875rem;
+    font-family: 35;
+    font-weight: bold;
+    color: #FFFFFF;
+    line-height: 1.875rem;
+    text-shadow: 0 .09375rem .3125rem rgba(0, 64, 128, 0.2);
+    text-align: center;
+}
+
+
+/* 头部 end */
+
+
+/* 民意聚焦 start */
+
+.public_will {
+    position: relative;
+    height: 17.3rem;
+}
+
+.public_will .box_first {
+    position: relative;
+    width: 20.6875rem;
+    height: 12.03125rem;
+    margin: 0 auto;
+    margin-top: 2.5625rem;
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: .46875rem;
+}
+
+.public_will .box_first .box_sec {
+    position: absolute;
+    top: -0.5625rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 19.4375rem;
+    height: 12.03125rem;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: .46875rem;
+}
+
+.public_will .box_content {
+    position: absolute;
+    top: .5625rem;
+    left: 50%;
+    transform: translate(-50%);
+    width: 21.9375rem;
+    height: 16.78125rem;
+    background: #FFFFFF;
+    box-shadow: 0 .0625rem .5625rem 0 rgba(0, 0, 0, 0.05);
+    border-radius: .46875rem;
+}
+
+.public_will .box_content .top {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 2.5rem;
+    padding-left: .65625rem;
+    padding-right: 1.15625rem;
+    box-sizing: border-box;
+    background: linear-gradient(90deg, #3198FF, #8B65FE);
+    border-top-left-radius: .46875rem;
+    border-top-right-radius: .46875rem;
+}
+
+.public_will .box_content .top .left {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.public_will .box_content .top .left .show {
+    display: flex;
+    align-items: center;
+}
+
+.public_will .box_content .top .left .show .year {
+    margin-right: .34375rem;
+    font-size: .75rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.public_will .box_content .top .left .num {
+    margin-left: .4375rem;
+    font-size: .75rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    color: #FFF300;
+}
+
+.public_will .box_content .top .right {
+    font-size: .75rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFF900;
+}
+
+.public_will .box_content .top dl {
+    position: absolute;
+    left: 0;
+    top: 2.5rem;
+    width: 3.25rem;
+    background: RGBA(49, 152, 255, .9);
+    text-align: center;
+    font-size: .5625rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.public_will .box_content .top dl dd {
+    line-height: 1.25rem;
+}
+
+.public_will .box_content .top dl dd:hover {
+    background: RGBA(137, 102, 254, 1);
+}
+
+.public_will .box_content ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: .9375rem;
+}
+
+.public_will .box_content li {
+    width: 9.375rem;
+    height: 3.4375rem;
+    margin-top: .9375rem;
+    padding-top: .8125rem;
+    padding-left: 1.125rem;
+    box-sizing: border-box;
+    background-size: 100% 100%;
+}
+
+.public_will .box_content li .intro {
+    font-size: .625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: .925rem;
+    color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.public_will .box_content li .xian {
+    width: 1.25rem;
+    height: .03125rem;
+    margin-top: .25rem;
+    margin-bottom: .25rem;
+    background: #FFFFFF;
+}
+
+.public_will .box_content li .num {
+    font-size: .8125rem;
+    font-family: Microsoft YaHei;
+    font-weight: bold;
+    line-height: .8125rem;
+    color: #fff;
+}
+
+.public_will .box_content li:nth-child(1) {
+    background: url(../images/spc_img3.png);
+    background-size: 100% 100%;
+}
+
+.public_will .box_content li:nth-child(2) {
+    margin-left: .96875rem;
+    background: url(../images/spc_img4.png);
+    background-size: 100% 100%;
+}
+
+.public_will .box_content li:nth-child(3) {
+    background: url(../images/spc_img_03.png);
+    background-size: 100% 100%;
+}
+
+.public_will .box_content li:nth-child(4) {
+    margin-left: .96875rem;
+    background: url(../images/spc_img5.png);
+    background-size: 100% 100%;
+}
+
+.public_will .box_content li:nth-child(5) {
+    background: url(../images/spc_img2.png);
+    background-size: 100% 100%;
+}
+
+
+/* 民意聚焦 end */
+
+
+/* 民生事项 start */
+
+.public_live,
+.people,
+.inform,
+.social,
+.consult,
+.abstract {
+    width: 21.9375rem;
+    margin: 0 auto;
+    padding: 0 .625rem;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0 .0625rem .5625rem 0 rgba(0, 0, 0, 0.05);
+    border-radius: .46875rem;
+}
+
+.public_live,
+.people {
+    height: 14.28rem;
+    margin-top: .9375rem;
+}
+
+.people {
+    height: 18rem;
+}
+
+.public_live .top,
+.people .top,
+.inform .top,
+.social .top,
+.consult .top,
+.abstract .top {
+    display: flex;
+    align-items: center;
+    padding-top: 1.0625rem;
+}
+
+.public_live .top .xian,
+.people .top .xian,
+.inform .top .xian,
+.social .top .xian,
+.consult .top .xian,
+.abstract .top .xian {
+    width: .09375rem;
+    height: .8125rem;
+    margin-top: .125rem;
+    margin-right: .5625rem;
+    background: #067BFF;
+}
+
+.public_live .top .title,
+.people .top .title,
+.inform .top .title,
+.social .top .title,
+.consult .top .title,
+.abstract .top .title {
+    font-size: .875rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #211F1F;
+    line-height: .875rem;
+}
+
+.public_live .limit,
+.people .limit,
+.inform .limit,
+.social .limit,
+.consult .limit,
+.abstract .limit {
+    width: 100%;
+    height: .03125rem;
+    margin: 0 auto;
+    margin-top: .8125rem;
+    background: #CCCCCC;
+}
+
+.public_live .total {
+    width: 3.5rem;
+    height: 1.75rem;
+    margin-top: .625rem;
+    background: linear-gradient(131deg, #65BFFF 0%, #0281FD 100%);
+    box-shadow: 0 .09375rem .375rem 0 rgba(56, 162, 254, 0.3);
+    border-radius: .375rem;
+    line-height: 1.75rem;
+    font-size: .5625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.public_live .cate_first {
+    width: 100%;
+    height: 9.375rem;
+    margin-top: .9375rem;
+}
+
+.people .month {
+    display: flex;
+    width: 10rem;
+    height: 1.75rem;
+    margin-top: 0.6625rem;
+    line-height: 1.75rem;
+    background: #F2F2F2;
+    border-radius: .375rem;
+}
+
+.inform .month {
+    display: flex;
+    width: 7rem;
+    height: 1.75rem;
+    margin-top: 0.6625rem;
+    line-height: 1.75rem;
+    background: #F2F2F2;
+    border-radius: .375rem;
+}
+
+.inform .month li {
+    width: 50%;
+    font-size: .5625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+}
+
+.people .month li {
+    width: 33.33%;
+    font-size: .5625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+}
+
+.people .father {
+    width: 100%;
+}
+
+.people .bar_box,
+.people .bar_sec_box,
+.people .bar_third_box {
+    width: 100%;
+    height: 11.4rem;
+}
+
+.people .bar_third_box {
+    font-size: .96rem;
+    line-height: 11.4rem;
+    text-align: center;
+}
+
+.people .month li:nth-child(1),
+.inform .month li:nth-child(1) {
+    border-radius: .375rem 0 0 .375rem;
+}
+
+.people .month li:nth-child(3),
+.inform .month li:nth-child(2) {
+    border-radius: 0 .375rem .375rem 0;
+}
+
+.active {
+    background: linear-gradient(131deg, #65BFFF 0%, #0281FD 100%);
+    box-shadow: 0 .09375rem .375rem 0 rgba(56, 162, 254, 0.3);
+    color: #fff !important;
+}
+
+.public_live .bar_sec {
+    width: 100%;
+    height: 9.375rem;
+    margin-top: .9375rem;
+}
+
+
+/* 民生小事 end */
+
+
+/* 统战信息 start */
+
+.inform {
+    height: 18rem;
+    margin-top: .9375rem;
+}
+
+.inform .father {
+    width: 100%;
+}
+
+.inform .inform_box,
+.inform .inform_sec_box {
+    width: 100%;
+    height: 11.4rem;
+}
+
+
+/* 统战信息 end */
+
+
+/* 社情民意 start */
+
+.social {
+    height: 19.5625rem;
+    margin-top: .9375rem;
+}
+
+.social .nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .9375rem;
+}
+
+.social .nav ul {
+    display: flex;
+    width: 7rem;
+    height: 1.75rem;
+    background: #F2F2F2;
+    border-radius: .375rem;
+}
+
+.social .nav ul li {
+    width: 50%;
+    line-height: 1.75rem;
+    font-size: .5625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+}
+
+.social .nav ul li:nth-child(1) {
+    border-radius: .375rem 0 0 .375rem;
+}
+
+.social .nav ul li:nth-child(2) {
+    border-radius: 0 .375rem .375rem 0;
+}
+
+.social .nav .time,
+.social .nav .social-year {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 3.5rem;
+    height: 1.75rem;
+    padding-left: .84375rem;
+    box-sizing: border-box;
+    background: linear-gradient(131deg, #65BFFF 0%, #0281FD 100%);
+    box-shadow: 0 .09375rem .375rem 0 rgba(56, 162, 254, 0.3);
+    border-radius: .375rem;
+    font-size: .625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    /* line-height: 1.75rem; */
+    color: #FFFFFF;
+}
+
+.social .nav .social-year {
+    position: absolute;
+    right: 4.3rem;
+    padding-left: .4rem;
+}
+
+.social .nav .time img,
+.social .nav .social-year img {
+    position: absolute;
+    right: .3875rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.social .nav dl {
+    z-index: 101;
+    position: absolute;
+    right: 0;
+    top: 1.75rem;
+    background: rgba(101, 191, 255, .9);
+    border-radius: 0.375rem;
+}
+
+.social .nav .time dl {
+    height: 4.5rem;
+    overflow: auto;
+}
+
+.social .nav dl dd {
+    width: 3.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: .5625rem;
+    color: #fff;
+}
+
+.social .nav dl dd:hover {
+    background: rgba(101, 191, 255, 1);
+}
+
+.social .intro {
+    display: flex;
+    width: 100%;
+    height: 1.875rem;
+    margin-top: .9375rem;
+    padding-left: .375rem;
+    box-sizing: border-box;
+    line-height: 1.875rem;
+    background: #0986FD;
+    font-size: .75rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.social .intro .number {
+    width: 3rem;
+    flex-shrink: 0;
+}
+
+.social .intro .title {
+    width: 10.3125rem;
+    flex-shrink: 0;
+    margin-left: .125rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.social .intro .time {
+    width: 3.3125rem;
+    flex-shrink: 0;
+    margin-left: .9375rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.social .intro .author {
+    flex-grow: 1;
+    padding-left: .25rem;
+    text-align: center;
+}
+
+.social .detail_box {
+    width: 100%;
+    height: 10.9375rem;
+}
+
+.social .detail_box .se2 {
+    width: 100%;
+    height: 100%;
+}
+
+.social .detail_box .list {
+    display: flex;
+    font-size: .625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    padding-left: .375rem;
+    box-sizing: border-box;
+}
+
+.social .detail_box .list:nth-child(even) {
+    background: #F3FBFF;
+}
+
+.social .detail_box .list .number {
+    width: 3rem;
+    flex-shrink: 0;
+}
+
+.social .detail_box .list .title {
+    width: 10.3125rem;
+    flex-shrink: 0;
+    margin-left: .125rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.social .detail_box .list .time {
+    width: 3.3125rem;
+    flex-shrink: 0;
+    margin-left: .9375rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.social .detail_box .list .author {
+    flex-grow: 1;
+    padding-left: .25rem;
+    text-align: center;
+}
+
+
+/* 社情民意 end */
+
+
+/* 协商议政 start */
+
+.consult {
+    position: relative;
+    height: 16.125rem;
+    margin-top: .9375rem;
+}
+
+.consult .nav,
+.abstract .nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: .9375rem;
+}
+
+.consult .nav ul,
+.abstract .nav ul {
+    display: flex;
+    width: 10rem;
+    height: 1.75rem;
+    background: #F2F2F2;
+    border-radius: .375rem;
+}
+
+.consult .nav ul li,
+.abstract .nav ul li {
+    width: 33.333%;
+    line-height: 1.75rem;
+    font-size: .5625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+}
+
+.consult .nav ul li:nth-child(1),
+.abstract .nav ul li:nth-child(1) {
+    border-radius: .375rem 0 0 .375rem;
+}
+
+.consult .nav ul li:nth-child(3),
+.abstract .nav ul li:nth-child(3) {
+    border-radius: 0 .375rem .375rem 0;
+}
+
+.consult .nav .time,
+.abstract .nav .time {
+    position: relative;
+    width: 3.5rem;
+    height: 1.75rem;
+    padding-left: .375rem;
+    box-sizing: border-box;
+    background: linear-gradient(131deg, #65BFFF 0%, #0281FD 100%);
+    box-shadow: 0 .09375rem .375rem 0 rgba(56, 162, 254, 0.3);
+    border-radius: .375rem;
+    font-size: .625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    line-height: 1.75rem;
+    color: #FFFFFF;
+}
+
+.abstract .nav .time {
+    padding-left: 1rem;
+}
+
+.consult .nav .time img,
+.abstract .nav .time img {
+    position: absolute;
+    right: .375rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.consult .nav dl,
+.abstract .nav dl {
+    position: absolute;
+    z-index: 101;
+    right: 0;
+    top: 1.75rem;
+    background: rgba(101, 191, 255, .9);
+    border-radius: 0.375rem;
+}
+
+.consult .nav dl dd {
+    border-radius: 0.375rem;
+}
+
+.consult .nav dl dd,
+.abstract .nav dl dd {
+    width: 3.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    font-size: .5625rem;
+    color: #fff;
+}
+
+.consult .nav dl dd:hover,
+.abstract .nav dl dd:hover {
+    background: rgba(101, 191, 255, 1);
+}
+
+.consult .rad_first {
+    width: 100%;
+    height: 10rem;
+}
+
+.consult .total {
+    position: absolute;
+    z-index: 1000;
+    top: 44.8%;
+    left: 17rem;
+    font-size: .8125rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #333333;
+}
+
+.consult .total li {
+    margin-top: 5%;
+}
+
+.consult .total li:nth-child(1) {
+    margin-top: 0;
+}
+
+.consult .rad_sec {
+    width: 100%;
+    height: 10rem;
+}
+
+.consult p {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: .96rem;
+    line-height: 10.4rem;
+    text-align: center;
+}
+
+
+/* 协商议政 end */
+
+
+/* 政协提要 start */
+
+.abstract {
+    height: 17.59375rem;
+    margin-top: .9375rem;
+}
+
+.abstract .abstract_line {
+    width: 100%;
+    height: 12.375rem;
+    margin-top: .9375rem;
+}
+
+.abstract .intro {
+    display: flex;
+    width: 100%;
+    height: 1.875rem;
+    margin-top: .9375rem;
+    padding-left: .375rem;
+    box-sizing: border-box;
+    line-height: 1.875rem;
+    background: #0986FD;
+    font-size: .75rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.abstract .list {
+    display: flex;
+    padding-left: 0.375rem;
+    box-sizing: border-box;
+    height: 2.1875rem;
+    line-height: 2.1875rem;
+    font-size: .625rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #666666;
+}
+
+.abstract .list:nth-child(even) {
+    background: #F3FBFF;
+}
+
+.abstract .intro .number,
+.abstract .list .number {
+    width: 2rem;
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.abstract .intro .title,
+.abstract .list .title {
+    width: 8.3125rem;
+    flex-shrink: 0;
+    margin-left: .125rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.abstract .intro .time,
+.abstract .list .time {
+    width: 5.3125rem;
+    flex-shrink: 0;
+    margin-left: .4375rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.abstract .intro .author,
+.abstract .list .author {
+    flex-grow: 1;
+    padding-left: .25rem;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.abstract .detail {
+    height: 11rem;
+}
+
+.abstract .detail .se6 {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 政协提要 end */
+
+@media screen and (max-width: 500px) {
+    .public_will .box_content .top dl {
+        width: 4.6rem;
+    }
+    .social .nav dl dd {
+        width: 4rem;
+    }
+    .public_will .box_content .top dl dd {
+        line-height: 2rem;
+    }
+    .consult .nav .time img,
+    .abstract .nav .time img {
+        right: .3125rem;
+    }
+    .consult .total {
+        top: 46%;
+    }
+    .consult .nav ul,
+    i .abstract .nav ul {
+        width: 14rem;
+    }
+    .consult .nav .time,
+    .abstract .nav .time {
+        width: 4rem;
+    }
+    .social .nav .time,
+    .social .nav .social-year {
+        width: 4rem;
+    }
+    .consult .nav dl dd,
+    .abstract .nav dl dd {
+        width: 4rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .consult .total li {
+        margin-top: 1%;
+    }
+}

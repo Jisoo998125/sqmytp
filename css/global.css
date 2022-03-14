@@ -1,0 +1,422 @@
+/* CSS重置 */
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+a,
+blockquote,
+th,
+td,
+hr,
+button,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header,
+footer,
+nav,
+hgroup,
+section,
+article,
+section,
+aside {
+    display: block;
+}
+
+
+/*标签属性重置*/
+
+body {
+    line-height: 32px;
+    font: 400 1em/1.8 'Microsoft Yahei', 'PingFang SC', 'Avenir', 'Segoe UI', 'Hiragino Sans GB', STHeiti, 'Microsoft Sans Serif', 'WenQuanYi Micro Hei', sans-serif;
+    color: #333333;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+input {
+    border: none;
+    outline: medium;
+}
+
+a {
+    font-size: 16px;
+    color: #333333;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+p,
+span {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.none {
+    display: none;
+}
+
+.trans-ease {
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    -ms-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+}
+
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+a:hover,
+a:focus {
+    color: #d71d1e;
+}
+
+.class-hover:hover {
+    color: #d71d1e;
+}
+
+.class-hover:hover span {
+    color: #d71d1e;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+
+/* 文本颜色 */
+
+.color-000 {
+    color: #000;
+}
+
+.color-333 {
+    color: #333;
+}
+
+.color-666 {
+    color: #666;
+}
+
+.color-999 {
+    color: #999;
+}
+
+.color-ccc {
+    color: #ccc;
+}
+
+.color-fff {
+    color: #fff;
+}
+
+.color-266da7 {
+    color: #266da7;
+}
+
+
+/*文本对齐方式*/
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-nowrap {
+    white-space: nowrap;
+}
+
+.text-indent {
+    text-indent: 2em;
+}
+
+
+/*字体大小*/
+
+.font-12 {
+    font-size: 12px;
+}
+
+.font-14 {
+    font-size: 14px;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-26 {
+    font-size: 26px;
+}
+
+.font-28 {
+    font-size: 28px;
+}
+
+.font-30 {
+    font-size: 30px;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-normal {
+    font-weight: normal;
+}
+
+
+/*行高*/
+
+.lh150 {
+    line-height: 150%;
+}
+
+.lh180 {
+    line-height: 180%;
+}
+
+.lh200 {
+    line-height: 200%;
+}
+
+
+/*下边距*/
+
+.margin-bottom-5 {
+    margin-bottom: 5px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-15 {
+    margin-bottom: 15px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/*隐藏显示*/
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+
+/*对于 IE8 及更早版本中的 :before :after，必须声明 <!DOCTYPE>。*/
+
+.clearfix:before,
+.clearfix:after {
+    display: block;
+    content: " ";
+    clear: both;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* 定位 */
+
+.pr {
+    position: relative;
+}
+
+.pa {
+    position: absolute;
+}
+
+.pf {
+    position: fixed;
+}
+
+
+/*定位元素层级*/
+
+.zindex-0 {
+    z-index: 0;
+}
+
+.zindex-1 {
+    z-index: 1;
+}
+
+.zindex-2 {
+    z-index: 2;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.zoom {
+    zoom: 1;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+
+/* 长度高度 */
+
+.width-100 {
+    width: 100%;
+}
+
+.height-100 {
+    height: 100%;
+}
+
+.text-over {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text-over-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*将对象作为弹性伸缩盒子模型显示。*/
+    -webkit-box-orient: vertical;
+    /*从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）*/
+    -webkit-line-clamp: 2;
+    /*这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。*/
+}
+
+.text-over-3 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    /*将对象作为弹性伸缩盒子模型显示。*/
+    -webkit-box-orient: vertical;
+    /*从上到下垂直排列子元素（设置伸缩盒子的子元素排列方式）*/
+    -webkit-line-clamp: 3;
+    /*这个属性不是css的规范属性，需要组合上面两个属性，表示显示的行数。*/
+}

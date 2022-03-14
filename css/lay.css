@@ -1,0 +1,344 @@
+/* 弹出层 start */
+
+.lay_content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: rgba(6, 26, 130, 1);
+    opacity: 0.9;
+}
+
+.layui-layer-title {
+    display: none !important;
+}
+
+.layui-layer-setwin a {
+    width: .3rem !important;
+    height: .3rem !important;
+    border-radius: 50%;
+    background-size: 100% 100% !important;
+}
+
+.layui-layer-ico {
+    background: url(../images/close_btn.png) !important;
+}
+
+.lay_content .lay_top {
+    padding: .625rem .6875rem 0 .5625rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lay_content .lay_top ul {
+    display: flex;
+    font-size: .175rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #03EBF3;
+}
+
+.lay_content .lay_top ul li {
+    width: .85rem;
+    height: .4125rem;
+    line-height: .4125rem;
+    text-align: center;
+}
+
+.lay_active {
+    background: url(../images/active_bg.png);
+    background-size: 100% 100%;
+}
+
+.lay_content .lay_top .sum {
+    display: flex;
+    align-items: center;
+}
+
+.lay_top .sum .rad {
+    width: .125rem;
+    height: .125rem;
+    margin-right: .075rem;
+    background: rgba(0, 0, 0, 0);
+    border: .025rem solid #FFEA00;
+    border-radius: 50%;
+}
+
+.lay_top .sum .num {
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFEA00;
+}
+
+.secContent {
+    padding-top: .9375rem;
+}
+
+.lay_in {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 6.7rem;
+    height: .7125rem;
+    margin: 0 auto;
+    background: url(../images/layin_bg.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+
+.lay_in input:nth-child(1) {
+    width: 60%;
+    height: 80%;
+    padding-left: .25rem;
+    background: rgba(5, 46, 139, 0.6);
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.lay_in input:nth-child(1)::-webkit-input-placeholder {
+    color: #fff;
+    font-size: .2rem;
+}
+
+.lay_in input:nth-child(2) {
+    width: .2875rem;
+    height: .2875rem;
+    margin-right: .2rem;
+    background: url(../images/search.png) no-repeat center center;
+    background-size: 100% 100%;
+    cursor: pointer;
+}
+
+.lay_detail {
+    height: 470px;
+    padding: 0 0 0 .5625rem;
+    margin-top: .25rem;
+    box-sizing: border-box;
+    background: rgba(6, 26, 130, 1);
+}
+
+.lay_detail .total,
+.lay_detail .year,
+.lay_detail .month {
+    width: 100%;
+    height: 100%;
+}
+
+.lay_detail .list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: .8125rem;
+    border-bottom: .0125rem solid rgba(244, 244, 245, .1);
+    cursor: pointer;
+}
+
+.lay_detail .list:last-child {
+    border: none;
+}
+
+.lay_detail .rad {
+    flex-shrink: 0;
+    width: .075rem;
+    height: .075rem;
+    margin-right: .085rem;
+    background: linear-gradient(-90deg, #2DB1FC 0%, #1B76FB 100%);
+    border-radius: 50%;
+}
+
+.lay_detail .intro {
+    flex-grow: 1;
+    width: 60%;
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lay_detail .num {
+    flex-shrink: 0;
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.lay_one_detail .content {
+    height: 5.6rem !important;
+    overflow: auto;
+}
+
+.lay_one_detail .content::-webkit-scrollbar {
+    width: .0625rem;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+}
+
+.lay_one_detail .content::-webkit-scrollbar-thumb {
+    /* 滚动条里面小方块 */
+    border-radius: .0625rem;
+    -webkit-box-shadow: inset 0 0 .0625rem rgba(0, 0, 0, 0.2);
+    background: #00EAFF !important;
+}
+
+.se1,
+.se2,
+.se3,
+.se6 {
+    width: 100%;
+    height: 100%;
+}
+
+.se1 .swiper-slide,
+.se2 .swiper-slide,
+.se3 .swiper-slide,
+.se6 .swiper-slide {
+    height: auto;
+    padding-right: .6875rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.se6 .swiper-slide {
+    height: auto;
+    padding-right: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.se1 .swiper-container-vertical>.swiper-scrollbar,
+.se2 .swiper-container-vertical>.swiper-scrollbar,
+.se3 .swiper-container-vertical>.swiper-scrollbar {
+    right: .3rem !important;
+    width: .075rem !important;
+    height: 5.1375rem !important;
+    background: rgba(255, 255, 255, .2) !important;
+    /* opacity: 0.2; */
+    border-radius: .0375rem;
+}
+
+.se6 .swiper-container-vertical>.swiper-scrollbar {
+    right: 0 !important;
+}
+
+.swiper-scrollbar-drag {
+    background: #00EAFF !important;
+}
+
+.layui-layer-content {
+    height: auto !important;
+}
+
+.lay_one {
+    position: relative;
+    width: 10rem;
+    height: 9rem;
+    background: rgba(6, 26, 130, 1);
+    opacity: 0.9;
+}
+
+.lay_one .lay_one_detail {
+    width: 6.7rem;
+    margin: 0 auto;
+    margin-top: .5rem;
+}
+
+.lay_one .top {
+    display: flex;
+    align-items: center;
+    height: .475rem;
+    background: url(../images/intro_bg.png);
+    background-size: 100% 100%;
+    font-size: .2rem;
+    font-family: SourceHanSansCN;
+    font-weight: 400;
+    color: #04C3EB;
+}
+
+.lay_one .top .headline {
+    width: 3.125rem;
+    text-align: center;
+}
+
+.lay_one .top .time {
+    width: 1.25rem;
+    margin-left: 1.9125rem;
+    text-align: center;
+}
+
+.lay_one .list {
+    display: flex;
+    align-items: center;
+    height: .6875rem;
+    font-size: .2rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.lay_one .list:nth-child(even) {
+    background: rgba(255, 255, 255, .1);
+}
+
+.lay_one .list .headline {
+    width: 4.125rem;
+    padding-left: .6rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.lay_one .list .time {
+    width: 1.25rem;
+    margin-left: 0.9rem;
+    text-align: center;
+}
+
+.lay_one .more {
+    margin-top: .25rem;
+    font-size: .175rem;
+    font-family: Microsoft YaHei;
+    font-weight: 400;
+    color: #00B4FF;
+    text-align: center;
+    cursor: pointer;
+}
+
+.lay_sec {
+    padding-top: .75rem;
+}
+
+.lay_sec .content {
+    width: 92%;
+    height: 5.75rem;
+    padding: 0 .25rem;
+    line-height: .4rem;
+    margin: 0 auto;
+    font-size: .2rem;
+    overflow: auto;
+    color: #4EF5BD;
+}
+
+.lay_sec .content::-webkit-scrollbar {
+    width: .0625rem;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+}
+
+.lay_sec .content::-webkit-scrollbar-thumb {
+    /* 滚动条里面小方块 */
+    border-radius: .0625rem;
+    -webkit-box-shadow: inset 0 0 .0625rem rgba(0, 0, 0, 0.2);
+    background: #00EAFF !important;
+}
+
+.red {
+    color: red;
+}

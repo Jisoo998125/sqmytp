@@ -1,0 +1,19 @@
+body {
+    background: RGBA(246, 246, 244, 1);
+}
+
+.content {
+    font-size: .768rem;
+    margin: 0 .9rem;
+    padding: 1rem .9rem;
+    background: #fff;
+}
+
+h1 {
+    margin: 0 .9rem;
+    margin-top: 0.96rem;
+    font-size: 1.6rem;
+    text-align: center;
+    background: #fff;
+    color: #0986FD;
+}
